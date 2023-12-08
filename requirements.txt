@@ -1,0 +1,20 @@
+#-c "https://raw.githubusercontent.com/apache/airflow/constraints-2.0.2/constraints-3.7.txt"
+psycopg2-binary==2.8.6
+apache-airflow-providers-postgres==1.0.1
+requests==2.25.1
+cx_oracle
+apache-airflow-providers-oracle==1.1.0
+cython==0.29.21
+#pyarrow==2.0.0
+#upgrade pyarrow to fix datatype issue with numpy version this does not allign with constraints above
+pyarrow==3.0.0
+awswrangler==2.4.0
+apache-airflow-providers-zendesk==1.0.1
+#Support for MSSQL Server
+apache-airflow-providers-microsoft-mssql==1.0.1
+apache-airflow-providers-odbc==1.0.1
+pymssql==2.2.1
+tableauserverclient==0.15.0
+apache-airflow-providers-tableau==1.0.0
+apache-airflow-providers-snowflake==1.3.0
+astronomer-cosmos==1.0.0
