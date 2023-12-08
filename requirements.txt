@@ -9,7 +9,7 @@ apache-airflow-providers-oracle==1.1.0
 cython==0.29.21
 #pyarrow==2.0.0
 #upgrade pyarrow to fix datatype issue with numpy version this does not allign with constraints above
-pyarrow==3.0.0
+pyarrow==14.0.1
 awswrangler==2.4.0
 apache-airflow-providers-zendesk==1.0.1
 #Support for MSSQL Server
