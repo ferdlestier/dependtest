@@ -1,6 +1,6 @@
 #-c 
 https://raw.githubusercontent.com/apache/airflow/constraints-2.0.2/constraints-3.7.txt
-apache-airflow==2.0.2
+apache-airflow==2.8.0
 psycopg2-binary==2.8.6
 apache-airflow-providers-postgres==1.0.1
 requests==2.25.1
